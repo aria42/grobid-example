@@ -52,5 +52,9 @@ public class MyGrobid {
 		}
 		return tei;
 	}
+
+	public static void main(String[] args) {
+		MyGrobid.runGrobid("/Users/ariah/Desktop/twitter_acl2011.pdf");
+	}
 	
 }
